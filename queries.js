@@ -1,4 +1,4 @@
-use plp_bookstore
+use('plp_bookstore');
 db.createCollection("books")
 
 // Find all books in Thriller genre
